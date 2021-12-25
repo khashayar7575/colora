@@ -1,0 +1,28 @@
+.font {
+  font-family: Raleway;
+}
+
+.box {
+  overflow: hidden;
+}
+
+.code {
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.1s all ease-in-out;
+  transform: translateY(35px);
+}
+
+.box:hover .code {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.hamburger-menu{
+  font-size: 22px;
+  color: #4A5568;
+}
+
+.active{
+  color: #EF72AE;
+}
